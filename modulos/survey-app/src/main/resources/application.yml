@@ -1,0 +1,22 @@
+server:
+    port: 8080
+userPoolId: us-east-1_hlkFh3upj
+awsregion: us-east-1
+
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:mysql://${host}:3306/surveyDatabase?useUnicode=true&characterEncoding=utf8&useSSL=false&requireSSL=false
+    username: ${username}
+    password: ${password}
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+

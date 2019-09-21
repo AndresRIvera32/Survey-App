@@ -1,0 +1,4 @@
+com\aws\spring\lib\security\AwsCognitoJwtAuthenticationFilter.class
+com\aws\spring\lib\security\AwsCognitoRSAKeyProvider.class
+com\aws\spring\lib\SecurityConfiguration.class
+com\aws\spring\lib\SwaggerConfig.class

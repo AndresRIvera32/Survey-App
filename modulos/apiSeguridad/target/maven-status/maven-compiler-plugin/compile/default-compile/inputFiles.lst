@@ -1,0 +1,12 @@
+C:\Users\javier.rivera\Documents\Curso-Survey-App\modulos_apis\modulos\apiSeguridad\src\main\java\com\aws\spring\App.java
+C:\Users\javier.rivera\Documents\Curso-Survey-App\modulos_apis\modulos\apiSeguridad\src\main\java\com\aws\spring\controller\StatusController.java
+C:\Users\javier.rivera\Documents\Curso-Survey-App\modulos_apis\modulos\apiSeguridad\src\main\java\com\aws\spring\dto\BasicAccessDTO.java
+C:\Users\javier.rivera\Documents\Curso-Survey-App\modulos_apis\modulos\apiSeguridad\src\main\java\com\aws\spring\dto\RenewPasswordFirstDTO.java
+C:\Users\javier.rivera\Documents\Curso-Survey-App\modulos_apis\modulos\apiSeguridad\src\main\java\com\aws\spring\service\SecurityServiceImpl.java
+C:\Users\javier.rivera\Documents\Curso-Survey-App\modulos_apis\modulos\apiSeguridad\src\main\java\com\aws\spring\dto\RespuestaApi.java
+C:\Users\javier.rivera\Documents\Curso-Survey-App\modulos_apis\modulos\apiSeguridad\src\main\java\com\aws\spring\controller\api\ApiSecurityController.java
+C:\Users\javier.rivera\Documents\Curso-Survey-App\modulos_apis\modulos\apiSeguridad\src\main\java\com\aws\spring\service\SecurityService.java
+C:\Users\javier.rivera\Documents\Curso-Survey-App\modulos_apis\modulos\apiSeguridad\src\main\java\com\aws\spring\dto\LoginDTO.java
+C:\Users\javier.rivera\Documents\Curso-Survey-App\modulos_apis\modulos\apiSeguridad\src\main\java\com\aws\spring\dto\UpdatePasswordDTO.java
+C:\Users\javier.rivera\Documents\Curso-Survey-App\modulos_apis\modulos\apiSeguridad\src\main\java\com\aws\spring\util\Utilitario.java
+C:\Users\javier.rivera\Documents\Curso-Survey-App\modulos_apis\modulos\apiSeguridad\src\main\java\com\aws\spring\dto\UserAttributesCognito.java

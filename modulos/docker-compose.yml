@@ -1,0 +1,56 @@
+version: '3.4'
+
+services:
+
+  api_survey:
+    build: survey-app/
+    image: and92/survey-app:latest
+    environment: 
+      - JAVA_OPTS=""
+      - userPoolId=us-east-1_hlkFh3upj
+      - host=bdsurvey.ckhhib4u0lah.us-east-1.rds.amazonaws.com
+      - port=3306
+      - database=surveyDatabase
+      - username=root
+      - password=12345678
+      - AWS_ACCESS_KEY_ID=AKIA5TBB5UJ2IRY3IZH4
+      - AWS_SECRET_ACCESS_KEY=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
+    ports:
+      - "9000:8080"
+    restart: on-failure
+    entrypoint: dockerize java -jar /workspace/app.jar
+    networks:
+      - backend
+
+  api_seguridad:
+    build: apiseguridad/
+    image: and92/api_seguridad:latest
+    environment: 
+      - userPoolId=us-east-1_hlkFh3upj
+      - clientId=4g7djgfm7db60an31fsuo15ig1
+      - AWS_ACCESS_KEY_ID=AKIA5TBB5UJ2IRY3IZH4
+      - AWS_SECRET_ACCESS_KEY=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
+      - demo=hola
+    ports:
+      - "8080"
+    restart: on-failure
+    networks:
+      - backend
+
+  proxy:
+    build: nginx/
+    image: and92/nginx_test:latest
+    ports:
+      - "80:80"
+    depends_on: 
+      - api_survey
+      - api_seguridad
+    restart: always
+    networks:
+      - backend
+
+volumes:
+  my-data:
+
+networks:
+  backend: 

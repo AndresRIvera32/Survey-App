@@ -1,0 +1,12 @@
+com\aws\spring\dto\RespuestaApi.class
+com\aws\spring\service\SecurityServiceImpl.class
+com\aws\spring\util\Utilitario.class
+com\aws\spring\service\SecurityService.class
+com\aws\spring\controller\api\ApiSecurityController.class
+com\aws\spring\dto\UpdatePasswordDTO.class
+com\aws\spring\dto\RenewPasswordFirstDTO.class
+com\aws\spring\dto\BasicAccessDTO.class
+com\aws\spring\App.class
+com\aws\spring\dto\UserAttributesCognito.class
+com\aws\spring\dto\LoginDTO.class
+com\aws\spring\controller\StatusController.class
